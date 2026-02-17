@@ -1,0 +1,8 @@
+[package]
+name = "axiom"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+axiom-compiler = { path = "../../compiler" }
+axiom-runtime = { path = "../../runtime" }

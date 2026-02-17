@@ -1,0 +1,6 @@
+[package]
+name = "axiom-compiler"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
