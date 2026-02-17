@@ -1,0 +1,6 @@
+[package]
+name = "axiom-lsp"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]

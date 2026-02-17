@@ -1,0 +1,4 @@
+tool MockEcho input { message: String } output { echo: String } cap toolCap;
+let query = "hello";
+call MockEcho { message: query } using toolCap timeout 1000;
+print query;

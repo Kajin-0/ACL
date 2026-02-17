@@ -1,0 +1,4 @@
+tool MockEcho input { value: Int } output { echo: String } cap toolCap;
+let a = 1 + 2;
+print a;
+call MockEcho { value: a } using toolCap timeout 1000;

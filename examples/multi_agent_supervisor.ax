@@ -1,0 +1,3 @@
+// Placeholder syntax for supervisor pattern
+let workers = 5;
+print workers;
